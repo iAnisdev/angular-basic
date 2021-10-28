@@ -1,0 +1,5 @@
+<header>
+    <h1>{{title}}</h1>
+    <p *ngIf="showSub"> Showing Sub</p>
+    <app-button [text]="'Submit'" [bgColor]="'red'"  (btnClick)="updateShowSub()">toggle {{showSub}}</app-button>
+</header>
