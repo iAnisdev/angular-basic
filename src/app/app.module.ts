@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ButtonComponent } from './components/button/button.component';
 import { ListComponent } from './components/list/list.component';
+import { ParentComponent } from './components/parent/parent.component';
+import { ChildComponent } from './components/child/child.component';
+import { UsernameFilterPipe } from './pipes/username-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ListComponent } from './components/list/list.component';
     HeaderComponent,
     FooterComponent,
     ButtonComponent,
-    ListComponent
+    ListComponent,
+    ParentComponent,
+    ChildComponent,
+    UsernameFilterPipe
   ],
   imports: [
     BrowserModule,
