@@ -2,5 +2,5 @@
     <input type="text" placeholder="Enter your name" #name>
     <br />
     <br />
-    <input type="button" value="Submit" (click)="submitName(name.value)">
+    <input type="button" value="Submit" [style.width.px]="fontSize" [style.color]="'green'" (click)="submitName(name.value)">
 </div>
